@@ -38,7 +38,7 @@ export default function IntakeForm({ onRefresh }: { onRefresh: () => void }) {
           placeholder="Phone (e.g. 0712345678)" required 
           className="bg-slate-950 p-3 rounded-xl text-white w-full border border-slate-800 focus:border-blue-500 outline-none"
         />
-        <button type="submit" disabled={loading} className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-3 rounded-xl font-bold transition-all">
+        <button type="submit" disabled={loading} className="bg-pink-600 hover:bg-blue-500 text-white px-8 py-3 rounded-xl font-bold transition-all">
           {loading ? "Adding..." : "Log Vehicle"}
         </button>
       </div>
